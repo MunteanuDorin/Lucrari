@@ -34,13 +34,15 @@ class Carte {
     public void setAutorul(String autorul) {
         this.autorul=autorul;
     }
-    public void setPretul(float pretul) {
-        this.pretul=pretul;
-    }
     public void setPagini(double pagini) { 
         this.pagini=pagini;
     }
     public void setEditura(String editura) { 
         this.editura=editura;
     }
+    public void setPretul(float pretul) {
+        this.pretul=pretul;    
+    }
+    public String toString() {
+        return "Cartea se numeste " +denumirea + " este scrisa de " +autorul + " , are " +pagini + " , este este editata de " +editura + " , costa "+pretul;
 }
