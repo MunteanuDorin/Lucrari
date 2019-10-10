@@ -1,0 +1,31 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Carte 12ReguliDeAur/AtidotImpotrivaHaosului = new Carte("JordanB.Peterson", 12, 500, 300, "PsihologiaPractica");
+        System.out.print("\n\n");
+        System.out.print("class Carte --> 12ReguliDeAur/AtidotImpotrivaHaosului");
+        System.out.print("\n");
+        System.out.println(12ReguliDeAur/AtidotImpotrivaHaosului.getAutorul());
+        System.out.println(12ReguliDeAur/AtidotImpotrivaHaosului.getCapitole());
+        System.out.println(12ReguliDeAur/AtidotImpotrivaHaosului.getNumarulDePagini());
+        System.out.println(12ReguliDeAur/AtidotImpotrivaHaosului.getPretul());
+        System.out.println(12ReguliDeAur/AtidotImpotrivaHaosului.getProducatorul());
+        
+        System.out.print("\n\n\n");
+
+        CarteFilosofie EcceHomo = new CarteFilosofie("FridrichWilhelmNietzsche", 8, 150, 100, "Hummanitas");
+        System.out.print("\n\n");
+        System.out.print("class Carte --> class CarteFilosofie --> EcceHomo");
+        System.out.print("\n");
+        System.out.println(EcceHomo.getAutorul());
+        System.out.println(EcceHomo.getCapitole());
+        System.out.println(EcceHomo.getNumarulDePagini());
+        System.out.println(EcceHomo.getPretul());
+        System.out.println(EcceHomo.getProducatorul());
+
+
+    }
+}
