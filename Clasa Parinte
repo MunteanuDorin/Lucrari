@@ -43,6 +43,7 @@ class Carte {
     public void setPretul(float pretul) {
         this.pretul=pretul;    
     }
+    @Override
     public String toString() {
         return "Cartea se numeste " +denumirea + " este scrisa de " +autorul + " , are " +pagini + " , este este editata de " +editura + " , costa "+pretul;
 }
