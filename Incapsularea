@@ -1,0 +1,38 @@
+package com.company;
+//Incapsularea
+    class Carte {
+        private int numarul = 20;
+        private String denumirea;
+        private String autorul;
+        private double pagini;
+
+        Carte(String denumirea, String autorul, double pagini) {
+            this.denumirea=denumirea;
+            this.autorul=autorul;
+            this.pagini=pagini;
+        }
+        
+        //get
+        public String getDenumirea() {
+            return this.denumirea;
+        }
+
+        public String getAutorul() {
+            return this.autorul;
+        }
+        public double getPagini() {
+            return this.pagini;
+        }
+        
+        //set
+        public void setDenumirea(String denumirea) {
+            this.denumirea=denumirea;
+        }
+        public void setAutorul(String autorul) {
+            this.autorul=autorul;
+        }
+        public void setPagini(double pagini) {
+            this.pagini=pagini;
+        }
+
+    }
