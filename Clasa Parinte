@@ -13,34 +13,34 @@ class Carte {
         this.pagini=pagini;
         this.editura=editura;
     }
-    private float getDenumirea() {
+    public float getDenumirea() {
         return this.denumirea;
     }
-    private String getAutorul() {
+    public String getAutorul() {
         return this.autorul;
     }
-    private String getPretul() {
+    public String getPretul() {
         return this.pretul;
     }
-    private int getPagini() {
+    public int getPagini() {
         return this.pagini;
     }
-    private int getEditura() {
+    public int getEditura() {
         return this.editura;
     }
-    private void setDenumirea(String denumirea) {
+    public void setDenumirea(String denumirea) {
         this.denumirea=denumirea;
     }
-    private void setAutorul(String autorul) {
+    public void setAutorul(String autorul) {
         this.autorul=autorul;
     }
-    private void setPretul(float pretul) {
+    public void setPretul(float pretul) {
         this.pretul=pretul;
     }
-    private void setPagini(double pagini) { 
+    public void setPagini(double pagini) { 
         this.pagini=pagini;
     }
-    private void setEditura(String editura) { 
+    public void setEditura(String editura) { 
         this.editura=editura;
     }
 }
