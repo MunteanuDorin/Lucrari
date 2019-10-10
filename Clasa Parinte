@@ -1,11 +1,11 @@
 package com.company;
 //Clasa parinte pentru CarteFilosofie
 class Carte {
-    public String denumirea;
-    public String autorul;
-    public float pretul;
-    public double pagini;
-    public String editura;
+    private String denumirea;
+    private String autorul;
+    private float pretul;
+    private double pagini;
+    private String editura;
     Carte(String denumirea,String autorul,float pretul,double pagini, String editura){
         this.denumirea=denumirea;
         this.autorul=autorul;
@@ -13,34 +13,34 @@ class Carte {
         this.pagini=pagini;
         this.editura=editura;
     }
-    public float getDenumirea() {
+    private float getDenumirea() {
         return this.denumirea;
     }
-    public String getAutorul() {
+    private String getAutorul() {
         return this.autorul;
     }
-    public String getPretul() {
+    private String getPretul() {
         return this.pretul;
     }
-    public int getPagini() {
+    private int getPagini() {
         return this.pagini;
     }
-    public int getEditura() {
+    private int getEditura() {
         return this.editura;
     }
-    public void setDenumirea(String denumirea) {
+    private void setDenumirea(String denumirea) {
         this.denumirea=denumirea;
     }
-    public void setAutorul(String autorul) {
+    private void setAutorul(String autorul) {
         this.autorul=autorul;
     }
-    public void setPretul(float pretul) {
+    private void setPretul(float pretul) {
         this.pretul=pretul;
     }
-    public void setPagini(double pagini) { 
+    private void setPagini(double pagini) { 
         this.pagini=pagini;
     }
-    public void setEditura(String editura) { 
+    private void setEditura(String editura) { 
         this.editura=editura;
     }
 }
