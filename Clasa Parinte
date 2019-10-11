@@ -9,7 +9,7 @@ class Carte {
     private double pagini;
     private String editura;
     
-    Carte(String denumirea,String autorul,float pretul,double pagini, String editura){
+    Carte(String denumirea, String autorul, float pretul, double pagini, String editura){
         this.denumirea = denumirea;
         this.autorul = autorul;
         this.pretul = pretul;
