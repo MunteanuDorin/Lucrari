@@ -1,34 +1,41 @@
 package com.company;
-import com.company.Carte;
-
-//import com.company.CartePsihologie;
 
 public class CartePsihologie extends Carte {
     public String descrierea;
     public boolean copertaDeCarton;
     public String biografiaAutorului;
+    
     CartePsihologie(String denumirea, String autorul, double pagini, String editura, float pretul, String descrierea, boolean copertaDeCarton, String biografiaAutorului{
-        super(nameProduct,price,manufacturer, yearOfProduction,color);
-        this.descrierea=descrierea;
-        this.copertaDeCarton=copertaDeCarton;
-        this.rezumatul=rezumatul;
+        super(denumirea, autorul, pagini, editura, pretul);
+        this.descrierea = descrierea;
+        this.copertaDeCarton = copertaDeCarton;
+        this.rezumatul = rezumatul;
     }
+    
+    //get
     public int getDescrierea(){
         return this.descrierea;
     }
+    
     public boolean getCopertaDeCarton(){
         return this.copertaDeCarton;
     }
+    
     public String getBiografiaAutorului(){
         return this.biografiaAutorului;
     }
+    
+    //set
     public void setDescrierea(String descrierea){
-        this.descrierea=descrierea;
+        this.descrierea = descrierea;
     }
+    
     public void setCopertaDeCarton(boolean copertaDeCarton){
-        this.copertaDeCarton=copertaDeCarton;
+        this.copertaDeCarton = copertaDeCarton;
     }
+    
     public void setBiografiaAutorului(String biografiaAutorului){
-        this.biografiaAutorului=biografiaAutorului;
+        this.biografiaAutorului = biografiaAutorului;
     }
+    
 }
