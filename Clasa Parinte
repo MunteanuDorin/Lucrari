@@ -1,18 +1,23 @@
 package com.company;
+
 //Clasa parinte pentru CarteFilosofie
+
 class Carte {
     private String denumirea;
     private String autorul;
     private float pretul;
     private double pagini;
     private String editura;
+    
     Carte(String denumirea,String autorul,float pretul,double pagini, String editura){
-        this.denumirea=denumirea;
-        this.autorul=autorul;
-        this.pretul=pretul;
-        this.pagini=pagini;
-        this.editura=editura;
+        this.denumirea = denumirea;
+        this.autorul = autorul;
+        this.pretul = pretul;
+        this.pagini = pagini;
+        this.editura = editura;
     }
+    
+    //get
     public float getDenumirea() {
         return this.denumirea;
     }
@@ -28,6 +33,8 @@ class Carte {
     public int getEditura() {
         return this.editura;
     }
+    
+   //set
     public void setDenumirea(String denumirea) {
         this.denumirea=denumirea;
     }
@@ -43,6 +50,7 @@ class Carte {
     public void setPretul(float pretul) {
         this.pretul=pretul;    
     }
+    
     @Override
     public String toString() {
         return "Cartea se numeste " +denumirea + " este scrisa de " +autorul + " , are " +pagini + " , este este editata de " +editura + " , costa "+pretul;
