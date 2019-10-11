@@ -21,15 +21,19 @@ class Carte {
     public float getDenumirea() {
         return this.denumirea;
     }
+    
     public String getAutorul() {
         return this.autorul;
     }
+    
     public String getPretul() {
         return this.pretul;
     }
+    
     public int getPagini() {
         return this.pagini;
     }
+    
     public int getEditura() {
         return this.editura;
     }
@@ -38,20 +42,30 @@ class Carte {
     public void setDenumirea(String denumirea) {
         this.denumirea=denumirea;
     }
+    
     public void setAutorul(String autorul) {
         this.autorul=autorul;
     }
+    
     public void setPagini(double pagini) { 
         this.pagini=pagini;
     }
+    
     public void setEditura(String editura) { 
         this.editura=editura;
     }
+    
     public void setPretul(float pretul) {
-        this.pretul=pretul;    
+        this.pretul=pretul; 
+        
     }
     
     @Override
     public String toString() {
-        return "Cartea se numeste " +denumirea + " este scrisa de " +autorul + " , are " +pagini + " , este este editata de " +editura + " , costa "+pretul;
+        return  "Cartea se numeste" + denumirea +
+                ", este scrisa de = " + autorul +
+                ", are " + pagini +
+                ", este este editata de " +editura + 
+                ", costa " +pretul;
+    }           
 }
