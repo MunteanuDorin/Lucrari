@@ -39,6 +39,5 @@ package com.company;
         public void setPagini(double pagini) {
             this.pagini = pagini;
         }
-        
-
+      
     }
