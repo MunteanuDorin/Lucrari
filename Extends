@@ -43,8 +43,11 @@ public class CartePsihologie extends Carte {
         return  "Cartea se numeste" + denumirea +
                 ", este scrisa de = " + autorul +
                 ", are " + pagini +
-                ", este din domeniul" + domeniul +
-                ", este produsa de " + producatorul + 
-                ", costa " +pretul;
+                ", este editata de" + editura +
+                ", costa " + pretul + 
+                ", are coperta de carton " + copertaDeCarton +
+                ". Despre carte: " + descrierea +
+                ". Despre autor: " + biografiaAutorului + " . ";
+                
     }  
 }
