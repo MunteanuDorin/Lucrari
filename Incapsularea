@@ -1,5 +1,7 @@
 package com.company;
+
 //Incapsularea
+
     class Carte {
         private int numarul = 20;
         private String denumirea;
@@ -7,9 +9,9 @@ package com.company;
         private double pagini;
 
         Carte(String denumirea, String autorul, double pagini) {
-            this.denumirea=denumirea;
-            this.autorul=autorul;
-            this.pagini=pagini;
+            this.denumirea = denumirea;
+            this.autorul = autorul;
+            this.pagini = pagini;
         }
         
         //get
@@ -26,13 +28,13 @@ package com.company;
         
         //set
         public void setDenumirea(String denumirea) {
-            this.denumirea=denumirea;
+            this.denumirea = denumirea;
         }
         public void setAutorul(String autorul) {
-            this.autorul=autorul;
+            this.autorul = autorul;
         }
         public void setPagini(double pagini) {
-            this.pagini=pagini;
+            this.pagini = pagini;
         }
 
     }
