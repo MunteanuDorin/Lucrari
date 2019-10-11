@@ -22,6 +22,7 @@ package com.company;
         public String getAutorul() {
             return this.autorul;
         }
+        
         public double getPagini() {
             return this.pagini;
         }
@@ -30,11 +31,14 @@ package com.company;
         public void setDenumirea(String denumirea) {
             this.denumirea = denumirea;
         }
+        
         public void setAutorul(String autorul) {
             this.autorul = autorul;
         }
+        
         public void setPagini(double pagini) {
             this.pagini = pagini;
         }
+        
 
     }
