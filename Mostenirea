@@ -1,26 +1,33 @@
 package com.company;
+
 //Mostenirea
 
-public class Carte extends CartePsihologie 
-{
+public class Carte extends CartePsihologie {
     public String denumirea;
     public String autorul;
 
     Carte( String denumirea,String autorul,int numarulPagini,String domeniul,String producatorul, double pretul ) {
         super(numarulPagini, domeniul, producatorul, pretul);
-        this.denumirea=denumirea;
-        this.autorul=autorul;
+        this.denumirea = denumirea;
+        this.autorul = autorul;
     }
+    
+    //get
     public String getDenumirea() {
         return this.denumirea;
     }
+    
     public String getAutorul() {
         return this.autorul;
     }
+    
+    //set
     public void setDenumirea(String denumirea) {
-        this.denumirea=denumirea;
+        this.denumirea = denumirea;
     }
+    
     public void setAutorul(String autorul) {
-        this.autorul=autorul;
+        this.autorul = autorul;
     }
+    
 }
