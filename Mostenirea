@@ -6,7 +6,7 @@ public class Carte extends CartePsihologie {
     public String denumirea;
     public String autorul;
 
-    Carte( String denumirea, String autorul, int numarulPagini, String domeniul, String producatorul, double pretul ) {
+    Carte(String denumirea, String autorul, int numarulPagini, String domeniul, String producatorul, double pretul) {
         super(numarulPagini, domeniul, producatorul, pretul);
         this.denumirea = denumirea;
         this.autorul = autorul;
