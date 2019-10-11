@@ -38,4 +38,13 @@ public class CartePsihologie extends Carte {
         this.biografiaAutorului = biografiaAutorului;
     }
     
+    @Override
+    public String toString() {
+        return  "Cartea se numeste" + denumirea +
+                ", este scrisa de = " + autorul +
+                ", are " + pagini +
+                ", este din domeniul" + domeniul +
+                ", este produsa de " + producatorul + 
+                ", costa " +pretul;
+    }  
 }
