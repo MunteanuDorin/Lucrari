@@ -18,7 +18,7 @@ class Carte {
     }
     
     //get
-    public float getDenumirea() {
+    public String getDenumirea() {
         return this.denumirea;
     }
     
@@ -26,29 +26,29 @@ class Carte {
         return this.autorul;
     }
     
-    public String getPretul() {
+    public float getPretul() {
         return this.pretul;
     }
     
-    public int getPagini() {
+    public double getPagini() {
         return this.pagini;
     }
     
-    public int getEditura() {
+    public String getEditura() {
         return this.editura;
     }
     
    //set
     public void setDenumirea(String denumirea) {
-        this.denumirea=denumirea;
+        this.denumirea = denumirea;
     }
     
     public void setAutorul(String autorul) {
-        this.autorul=autorul;
+        this.autorul = autorul;
     }
     
     public void setPagini(double pagini) { 
-        this.pagini=pagini;
+        this.pagini = pagini;
     }
     
     public void setEditura(String editura) { 
@@ -63,10 +63,10 @@ class Carte {
     @Override
     public String toString() {
         return  "Cartea se numeste" + denumirea +
-                ", este scrisa de = " + autorul +
+                ", este scrisa de : " + autorul +
                 ", are " + pagini +
-                ", este este editata de " +editura + 
-                ", costa " +pretul;
+                ", este editata de " + editura + 
+                ", costa : " + pretul;
     }     
     
 }
