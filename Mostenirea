@@ -37,7 +37,7 @@ public class Carte extends CartePsihologie {
                 ", are " + pagini +
                 ", este din domeniul" + domeniul +
                 ", este produsa de " + producatorul + 
-                ", costa " +pretul;
+                ", costa " + pretul;
     }  
     
 }
