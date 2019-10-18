@@ -60,7 +60,7 @@ class Carte {
         
     }
     
-    @Override
+    
     public String toString() {
         return  "Cartea se numeste" + denumirea +
                 ", este scrisa de : " + autorul +
